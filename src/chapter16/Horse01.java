@@ -29,6 +29,18 @@ public class Horse01 extends Thread{
 			distance = 100;
 		}
 		
+		// 트랙  그래픽 표시
+		String track = "";  
+		for(int i=0;i<distance;i++) {
+			track = track + ">";
+		}
+		System.out.println("[" + name + "]" + distance + "m"  + track);
+		
+		
+		
+		
+		
+		
 		try {   
 			Thread.sleep(200);    // 게임이 넘 빨리 끝나지 않게
 		} catch (InterruptedException e) {
