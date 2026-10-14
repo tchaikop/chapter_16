@@ -30,7 +30,7 @@ public class Horse01 extends Thread{
 		}
 		
 		try {   
-			Thread.sleep(500);    // 게임이 넘 빨리 끝나지 않게
+			Thread.sleep(200);    // 게임이 넘 빨리 끝나지 않게
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
